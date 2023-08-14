@@ -6,7 +6,9 @@ const CookiesComponent = () => {
     1=>any name by which we can access cookies data in object form
     2=>set method by which we can set cookies which has path and expiry date also
         path and expiry date is optional 
-        path is 
+        path is use when we want particular data on particular page for that requirement we use path
+        expiry date is we can set directly or accrding to current time in this example i have set time by current time + 2 minute 
+        after two minutes this cookie is expire 
     3=>remove cookie by which we can remove cookie */
     /*  */
     let [cookies, setcookies, removecookies] = useCookies()
